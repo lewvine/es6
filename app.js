@@ -1,13 +1,9 @@
-//Nothing here yet.
+const startGameBtn = document.getElementById('start-game-button');
 
-let name = 'Max';
+function startGame (){
+    console.log("Game is starting...")
+};
 
-function greet(){
-    let age = 30;
-    let name = 'Manuel';
-    console.log(name, age);
-}
+startGame();
 
-console.log(name);
-greet();
-console.log(name);
+startGameBtn.addEventListener('click', startGame);
